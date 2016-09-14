@@ -57,4 +57,27 @@
 
         ?>
 </p>
+
+  <p>
+      <?php
+      // On the line below, create your own associative array:
+      $myArray = array('Solare', 'Oscar', 'Patches');
+
+
+      // On the line below, output one of the values to the page:
+      echo $myArray[2] . '<br/>';
+          
+      // On the line below, loop through the array and output *all* of the values to the page:
+      echo '<br /><br />Some pretty cool Dark Souls characters:<br />'; 
+
+      $arrayLength = count($myArray);
+      
+      for ($i = 0; $i < $arrayLength; $i++) {
+        echo $myArray[$i] . '<br />';
+      }
+    
+     
+     
+      ?>
+    </p>
 </html>
