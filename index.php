@@ -76,8 +76,6 @@
         echo $myArray[$i] . '<br />';
       }
     
-     
-     
       ?>
     </p>
 </html>
